@@ -10,11 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/visuddha/npm-cli-package.git"
   },
-  "bin" : "index.js",
+  "bin": "index.js",
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/visuddha/npm-cli-package/issues"
   },
-  "homepage": "https://github.com/visuddha/npm-cli-package#readme"
+  "homepage": "https://github.com/visuddha/npm-cli-package#readme",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
 }
